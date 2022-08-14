@@ -1,6 +1,6 @@
 const ratingValue = document.querySelectorAll(".ratingValue");
 
-let ratedValue;
+let ratedValue = 0;
 
 ratingValue.forEach((element) => {
   element.addEventListener("mouseenter", mouseOnAction);
