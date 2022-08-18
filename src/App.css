@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lgrey: hsl(217, 12%, 63%);
+  --mgrey: hsl(216, 12%, 54%);
+  --dblue: hsl(213, 19%, 18%);
+  --dbluediff: hsl(215, 36%, 12%);
+  --vdblue: hsl(216, 12%, 8%);
+  --amber: rgb(254, 178, 4);
+}
+
+.mainSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--vdblue);
+}
